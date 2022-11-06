@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+main {
+  position: relative;
+  /* background-color: hsl(218, 23%, 16%); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advice-box {
+  background-color: hsl(217, 19%, 24%);
+  height: auto;
+  border-radius: 18px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.secondary-heading {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: hsl(150, 100%, 66%);
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 30px;
+}
+
+.advice-quote {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.dice-btn {
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 100px;
+  padding: 18px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  transform: translate(0, 50%);
+}
+
+.dice-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.dice-btn:active {
+  box-shadow: 0 0 15px hsl(150, 100%, 66%);
+}
+
+.attribution {
+  text-align: center;
+  background-color: #fff;
+  padding: 15px 30px;
+}
